@@ -1,0 +1,173 @@
+body {
+  background-color: aquamarine;
+  /*background-image: url("hosp7.jpg");*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+
+.heading {
+  position: fixed;
+  color: navy;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 8%;
+}
+
+.menu {
+  margin-left: 20%;
+  position: fixed;
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+li a {
+  display: inline-block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  /* color: white; */
+}
+
+.services {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+}
+
+.service:hover .services {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: maroon;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 4px;
+  top: 0;
+}
+
+.hosp_images {
+  width: 100%;
+}
+
+.hosp_images img {
+  margin-top: 100px;
+}
+
+.welcome {
+  
+  margin-left: 10px;
+}
+
+.bottomimg {
+  float: right;
+  right: 0;
+}
+
+.modern {
+  display: flex;
+  flex-direction: row;
+}
+
+.featured_services {
+  border: 5px;
+  background-color: #f8373798;
+  align-content: center;
+  color: white;
+}
+
+.featured {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+}
+
+.featured>div {
+  margin-top: 10px;
+  align-items: center;
+}
+
+
+.featured img {
+  border-style: solid;
+  border-color: yellow;
+  width: 100%;
+  height: 100%;
+}
+
+.pharmacy {
+  width: 20%;
+  height: 20%;
+  padding: 30px;
+}
+
+.laboratory {
+  width: 20%;
+  height: 20%;
+  padding: 30px;
+}
+
+.radiology {
+  width: 20%;
+  height: 20%;
+  padding: 30px;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  background-color: #800000e1;
+}
+
+.abchosp{
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+.quicklinks{
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+.support{
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.footer {
+  background-color: grey;
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding:4px;
+  bottom: 0;
+}
